@@ -1,6 +1,5 @@
 package com.tit.addressbookapp.controller;
 
-
 import com.tit.addressbookapp.dto.AddressBookDTO;
 import com.tit.addressbookapp.model.AddressBookEntry;
 import com.tit.addressbookapp.service.AddressBookService;
@@ -19,7 +18,8 @@ public class AddressBookController {
 
     @PostMapping
     public ResponseEntity<String> createEntry(@RequestBody AddressBookDTO dto) {
-        return ResponseEntity.ok(addressBookService.createEntry(dto));
+        String response = addressBookService.createEntry(dto);  // ✅ Call service layer
+        return ResponseEntity.ok(response);
     }
 
     @GetMapping
@@ -45,5 +45,3 @@ public class AddressBookController {
         return response != null ? ResponseEntity.ok(response) : ResponseEntity.notFound().build();
     }
 }
-
-
