@@ -1,0 +1,47 @@
+2025-03-01T10:58:06.626+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] c.t.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 22.0.1 with PID 5320 (C:\Users\ASUS\Desktop\Capgemini_Traning\AddressBookApp\target\classes started by ASUS in C:\Users\ASUS\Desktop\Capgemini_Traning\AddressBookApp)
+2025-03-01T10:58:06.629+05:30 DEBUG 5320 --- [AddressBookApp] [restartedMain] c.t.a.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01T10:58:06.630+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] c.t.a.AddressBookAppApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-03-01T10:58:06.720+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-01T10:58:06.721+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-01T10:58:07.539+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-01T10:58:07.569+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2025-03-01T10:58:08.218+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-03-01T10:58:08.241+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-01T10:58:08.241+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-01T10:58:08.284+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-01T10:58:08.284+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1562 ms
+2025-03-01T10:58:08.419+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-01T10:58:08.650+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:d7b1085d-52c1-4f13-ab4b-95be8a284ce2 user=SA
+2025-03-01T10:58:08.653+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-01T10:58:08.755+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-01T10:58:08.840+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-01T10:58:08.893+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-01T10:58:09.224+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-01T10:58:09.313+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-01T10:58:09.707+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-01T10:58:09.712+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-01T10:58:09.775+05:30  WARN 5320 --- [AddressBookApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01T10:58:10.147+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:d7b1085d-52c1-4f13-ab4b-95be8a284ce2'
+2025-03-01T10:58:10.235+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-01T10:58:10.269+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-03-01T10:58:10.280+05:30  INFO 5320 --- [AddressBookApp] [restartedMain] c.t.a.AddressBookAppApplication          : Started AddressBookAppApplication in 4.535 seconds (process running for 5.297)
+2025-03-01T10:58:25.751+05:30  INFO 5320 --- [AddressBookApp] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-01T10:58:25.752+05:30  INFO 5320 --- [AddressBookApp] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-01T10:58:25.754+05:30  INFO 5320 --- [AddressBookApp] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-01T10:58:25.879+05:30  INFO 5320 --- [AddressBookApp] [http-nio-8081-exec-1] c.t.a.service.AddressBookService         : Fetching all address book entries.
+2025-03-01T10:58:30.567+05:30  INFO 5320 --- [AddressBookApp] [http-nio-8081-exec-3] c.t.a.service.AddressBookService         : New entry created with ID: 1
+2025-03-01T10:58:36.594+05:30  INFO 5320 --- [AddressBookApp] [http-nio-8081-exec-4] c.t.a.service.AddressBookService         : New entry created with ID: 2
+2025-03-01T10:58:41.700+05:30  INFO 5320 --- [AddressBookApp] [http-nio-8081-exec-5] c.t.a.service.AddressBookService         : Fetching all address book entries.
+2025-03-01T10:58:49.450+05:30  INFO 5320 --- [AddressBookApp] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-01T10:58:49.456+05:30  INFO 5320 --- [AddressBookApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-01T10:58:49.459+05:30  INFO 5320 --- [AddressBookApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-01T10:58:49.464+05:30  WARN 5320 --- [AddressBookApp] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-03-01T10:58:49.466+05:30  INFO 5320 --- [AddressBookApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-01T10:58:49.468+05:30  INFO 5320 --- [AddressBookApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
